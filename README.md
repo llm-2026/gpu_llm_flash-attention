@@ -60,7 +60,7 @@ pip install -e .
 
 After completing the course, implement the full Flash-Attention algorithm:
 
-1. **Softmax-Matmul** — Verify your Triton implementation and benchmark it
+1. [**Softmax-Matmul**](homework/01_softmax_matmul.md) — Verify your Triton implementation and benchmark it
 2. **Flash-Attention in PyTorch** — Implement forward and backward passes
 3. **Flash-Attention in Triton** — Port to Triton, test and benchmark
 
