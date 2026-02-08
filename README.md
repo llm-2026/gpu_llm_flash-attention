@@ -66,6 +66,8 @@ After completing the course, implement the full Flash-Attention algorithm:
 2. [**Flash-Attention in PyTorch**](homework/02_flash_attention_pytorch.md) — Implement forward and backward passes
 3. [**Flash-Attention in Triton**](homework/03_flash_attention_triton.md) — Port to Triton, test and benchmark
 
+📄 **Complete instructions:** [homework_all.pdf](homework/homework_all.pdf)
+
 > ⚠️ **GPU Compatibility:** Triton is optimized for Hopper architecture (H100). There are known issues with Turing GPUs (T4). As a result, it might be difficult to have Triton code running properly on Turing GPUs and if possible, you should use a H100 for your Triton implementation of Flash-Attention.
 
 ## Submission
